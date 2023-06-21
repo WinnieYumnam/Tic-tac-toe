@@ -1,0 +1,34 @@
+{
+  "homepage": "http://WinnieYumnam.github.io/react_app_repo/Tic-tac-toe",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+  "main": "/index.js",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "react-scripts": "1.0.0"
+  },
+  "name": "tic-tac-toe",
+  "description": "null",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
